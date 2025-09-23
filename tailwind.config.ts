@@ -47,6 +47,17 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Atlas Sanctum Custom Colors
+        heritage: {
+          rust: "hsl(var(--heritage-rust))",
+          earth: "hsl(var(--heritage-earth))",
+        },
+        tech: {
+          blue: "hsl(var(--tech-blue))",
+        },
+        impact: {
+          green: "hsl(var(--impact-green))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +68,20 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-innovation': 'var(--gradient-innovation)',
+        'gradient-community': 'var(--gradient-community)',
+      },
+      boxShadow: {
+        'heritage': 'var(--shadow-heritage)',
+        'glow': 'var(--shadow-glow)',
+        'tech': 'var(--shadow-tech)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
+        'bounce': 'var(--transition-bounce)',
       },
       borderRadius: {
         lg: "var(--radius)",
